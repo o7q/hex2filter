@@ -2,7 +2,7 @@
 
 <!-- <img src="assets/images/banner.png"> -->
 
-# [<b>>> Try it out!</b>]()
+# [<b>>> Try it out!</b>](https://o7q.github.io/hex2filter)
 <h3>Welcome! hex2filter is a web based tool that allows you to easily convert HEX values into CSS filters.</h3>
 
 <!-- ---
@@ -13,12 +13,11 @@
 
 # Overview
 hex2filter takes in 3 values:
-- **Input Hex**
-- **Max Loss**
-- **Max Attempts**
+- Input Hex
+- Max Loss
+- Max Attempts
 
-
-### <b>Forked from https://codepen.io/sosuke/pen/Pjoqqp</b>
+### <b>Forked from: https://codepen.io/sosuke/pen/Pjoqqp</b>
 
 ---
 
@@ -32,5 +31,5 @@ hex2filter takes in 3 values:
 ---
 
 <b>hex2filter</b> \
-Programmed with HTML, CSS, and JavaScript
+Programmed with HTML, CSS, and JavaScript \
 Forked from: https://codepen.io/sosuke/pen/Pjoqqp
