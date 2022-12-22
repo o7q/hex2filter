@@ -1,0 +1,57 @@
+@font-face
+{
+    font-family: RobotoBlack;
+    src: url(fonts/robotoBlack.ttf);
+}
+
+@font-face
+{
+    font-family: RobotoBold;
+    src: url(fonts/robotoBold.ttf);
+}
+
+@font-face
+{
+    font-family: RobotoRegular;
+    src: url(fonts/robotoRegular.ttf);
+}
+
+body
+{
+    text-align: center;
+    background-image: linear-gradient(#323232, #000000);
+}
+
+.head
+{
+    font-family: RobotoBlack;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.text
+{
+    font-family: RobotoRegular;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.textBold
+{
+    font-family: RobotoBold;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.pixel
+{
+    display: inline-block;
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+}
+
+.disableSelect
+{
+    user-select: none;
+}

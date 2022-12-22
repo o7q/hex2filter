@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            hex2filter
+        </title>
+
+        <link rel="stylesheet" href="files/styles.css">
+    </head>
+
+    <body>
+        <p class="head disableSelect">hex2filter</p>
+
+        <p>
+            <label class="textBold disableSelect" style="margin-left: -18px;">
+                Input Hex:
+            </label>
+            <input class="target" type="text" placeholder="target hex" value="#00a4d6"/>
+
+            <br>
+
+            <label class="textBold disableSelect" style="margin-left: -18px;">
+                Max Loss:
+            </label>
+            <input class="lossMax disableSelect" type="text" value="0.1"/>
+
+            <br>
+
+            <label class="textBold disableSelect" style="margin-left: -48px;">
+                Max Attempts:
+            </label>
+            <input class="attemptsMax" type="text" value="10000"/>
+        </p>
+        
+        <button class="execute textBold" style="color: #000000;">Compute Filters</button>
+
+        <p class="text disableSelect" style="transform: translate(0px, -5px);">Real pixel, color applied through CSS <code>background-color</code>:</p>    
+        <div class="pixel realPixel" style="transform: translate(0px, -15px);"></div>
+
+        <p class="text disableSelect" style="transform: translate(0px, 10px);">Filtered pixel, color applied through CSS <code>filter</code>:</p>
+        <div class="pixel filterPixel"></div>
+
+        <p class="filterDetail textBold " style="font-size: 20px;"></p>
+        <p class="lossDetail text disableSelect" style="transform: translate(0px, -15px);"></p>
+
+        <script src="files/libraries/jquery/jquery.min.js"></script>
+        <script src="files/scripts.js"></script>
+    </body>
+</html>
