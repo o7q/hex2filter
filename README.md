@@ -8,10 +8,7 @@
 ---
 
 # Overview
-hex2filter takes in 3 values:
-- Input Hex
-- Max Loss
-- Max Attempts
+hex2filter takes in 3 values (input hex, max loss, and max attempts) and generates a CSS filter function.
 
 ### <b>Forked from: https://codepen.io/sosuke/pen/Pjoqqp</b>
 
