@@ -313,7 +313,14 @@ $(document).ready(() =>
         const lossMax = $('input.lossMax').val();
         const attemptsMax = $('input.attemptsMax').val();
 
-        for (let i = 0; i < attemptsMax; i++)
+        if (lossMax <= 0)
+        {
+            alert("Invalid lossy value!");
+            return;
+        }
+
+        let tryCount = 0;
+        for (; tryCount < attemptsMax; tryCount++)
         {
             const color = new Color(rgb[0], rgb[1], rgb[2]);
             const solver = new Solver(color);
@@ -325,6 +332,12 @@ $(document).ready(() =>
             $('.lossDetail').html(`Loss: ${result.loss.toFixed(1)}`);
 
             if (result.loss < lossMax) return;
+        }
+
+        if (tryCount == attemptsMax)
+        {
+            alert("Could not achieve the ideal lossy amount in " + attemptsMax + " attempt(s)!");
+            return;
         }
     });
 });
