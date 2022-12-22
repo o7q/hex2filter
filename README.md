@@ -5,10 +5,6 @@
 # [<b>>> Try it out!</b>](https://o7q.github.io/hex2filter)
 <h3>Welcome! hex2filter is a web based tool that allows you to easily convert HEX values into CSS filters.</h3>
 
-<!-- ---
-
-<img src="assets/images/program.png"> -->
-
 ---
 
 # Overview
