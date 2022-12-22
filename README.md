@@ -1,6 +1,6 @@
 ## This project is an improved version of: https://codepen.io/sosuke/pen/Pjoqqp
 
-<!-- <img src="assets/images/banner.png"> -->
+<img src="assets/images/banner.png">
 
 # [<b>>> Try it out!</b>](https://o7q.github.io/hex2filter)
 <h3>Welcome! hex2filter is a web based tool that allows you to easily convert HEX values into CSS filters.</h3>
