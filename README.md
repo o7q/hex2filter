@@ -2,7 +2,7 @@
 
 <img src="assets/images/banner.png">
 
-# [<b>>> Try it out!</b>](https://o7q.github.io/hex2filter)
+# <b><a href="https://o7q.github.io/hex2filter" target="_blank">>> Try it out!</a></b>
 <h3>Welcome! hex2filter is a web based tool that allows you to easily convert HEX values into CSS filters.</h3>
 
 <!-- ---
