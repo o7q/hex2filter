@@ -24,5 +24,5 @@ hex2filter takes in 3 values (input hex, max loss, and max attempts) and generat
 ---
 
 <b>hex2filter</b> \
-Programmed with HTML, CSS, and JavaScript \
+Written in HTML, CSS, and JavaScript \
 Forked from: https://codepen.io/sosuke/pen/Pjoqqp
